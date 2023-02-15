@@ -1,0 +1,147 @@
+body{
+  margin: 0;
+  background-color:rgb(194, 225, 241);
+  background-image: url("https://st2.depositphotos.com/3827765/6621/v/950/depositphotos_66218765-stock-illustration-set-of-simple-cartoon-school.jpg?forcejpeg=true");
+  
+  color: black;
+  overflow-x: hidden;
+}
+
+#nav{
+  list-style-type: none;
+  position: absolute;
+  /* box-shadow:5px 5px 5px solid gray; */
+  color:aliceblue;
+  background-color: rgb(2, 45, 71);
+  width:100%;
+  height: 12%;
+  margin-top: 0;
+  padding-top:15px;
+  font-size: 20px;
+}
+
+li{
+  float:left;
+  display:block;
+  padding:8px;
+}
+
+#search{
+  background-color: #f5f5f6;
+  display:inline-block;
+  font-size: 14px;
+  border-radius: 5px; 
+}
+
+#search input{
+  width: 350px;
+  height:25px;
+  background-color: #f5f5f6;
+  border:1px solid #f5f5f6;
+  padding: 8px 10px 10px;
+  border-radius: 0 4px 4px 0;
+  box-sizing: content-box;
+}
+
+#search button{
+  background-color: #f5f5f6;
+  border: none;
+  padding: 8px 10px 2px;
+  border-radius: 8px 0 2px;
+}
+
+a{
+  color:#282C3F;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: Whitney,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+  text-decoration: none;
+}
+
+.icon{
+  height: 40px;
+  width:40px;
+  margin-right:8rem;
+
+}
+
+.itm{
+  padding-right: 30px;
+  margin-top: 10px;
+}
+
+.lgin{
+  margin-left: 6rem;
+}
+
+.tch{
+  margin-left: 6rem;
+}
+
+.cat{
+  margin-right: 5rem;
+}
+
+.class{
+  margin-left: 5rem;
+  margin-right: 4rem;
+}
+
+.logout{
+  margin-left: 2.5rem;
+}
+
+.link:visited{
+  color:aliceblue;
+}
+
+.link{
+  color:aliceblue;
+}
+.sidenav{
+  height:100%;
+  width:26%;
+  position: fixed;
+  /* z-index:1; */
+  top:0;
+  left:0; 
+  background-color: rgba(243, 235, 242,0.8);
+  overflow-x:hidden;
+  padding-top:5%;
+}
+
+.sidenav li{
+  display: block;
+  padding-left: 11%;
+  margin-bottom: 26px;
+  margin-left:16%;
+}
+
+.link{
+  color:rgb(65, 66, 67);
+  font-weight: 700;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-decoration: none;
+}
+
+.link:hover{
+  color:rgb(168, 164, 166);
+}
+
+.ic{
+  margin-right:6px;
+  color:rgb(40, 42, 41);
+}
+
+
+#profile{
+  height:110px;
+  width: 106px;
+  border-radius:50%;
+  
+}
+
+#name{
+  color:rgb(67, 66, 66);
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
